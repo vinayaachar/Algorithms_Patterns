@@ -4,7 +4,7 @@ import math
 def triplet_sum_close_to_target(arr, target_sum):
     # TODO: Write your code here
     arr.sort()
-    smallest_difference = 1000000000
+    smallest_difference = 1000000000  # Because import does not work
 
     for i in range(len(arr) - 2):
         left = i + 1
